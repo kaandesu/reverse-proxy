@@ -8,15 +8,15 @@ import (
 )
 
 type resource struct {
-	Name     string
-	Endpoint string
-	DestUrl  string
+	Name            string
+	Endpoint        string
+	Destination_URL string
 }
 
 type configuration struct {
 	Server struct {
-		Host       string
-		ListenPort string
+		Host        string
+		Listen_Port string
 	}
 	Resources []resource
 }
